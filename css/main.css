@@ -1,43 +1,3 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[LAYOUT]
-
-* body
-  + Header / header
-  + Page Content / .page-content .name-page
-        + Section Layouts / section .name-section
-        ...
-  + Footer / footer
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[COLOR CODES]
-
-# Text Color      :  
-# Primary Color 01:  
-# Primary Color 02:   
-# Primary Color 03:  
-
-------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[TYPOGRAPHY]
-
-Body            : 16px/1.6 '', Arial, sans-serif;
-Title           : 18px/1.6 '', Arial, sans-serif;
-Paragrap        : 18px/1.6 '', Arial, sans-serif;
-Input, textarea : 14px/1.6 '', Arial, sans-serif;
--------------------------------------------------------------------*/
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ FONT ]*/
 
 @font-face {
   font-family: Poppins-Regular;
@@ -369,7 +329,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .main-menu > li > a {
   font-family: Poppins-Medium;
   font-size: 14px;
-  color: #333;
+  color: #57290c;
   padding: 5px 0px;
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
@@ -563,7 +523,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
   font-family: Poppins-ExtraLight;
   font-size: 50px;
   line-height: 1.2;
-  color: #333;
+  color: #57290c;
   
   padding: 0px 30px 0px 0px;
   width: calc(100% - 70px);
@@ -573,7 +533,7 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 
 .wrap-search-header button {
   font-size: 50px;
-  color: #333;
+  color: #57290c;
   width: 70px;
   height: 100%;
 }
@@ -1629,12 +1589,12 @@ button.mfp-close {
 }
 
 .tab01 .nav-link.active {
-  color: #333;
+  color: #57290c;
   border-color: #797979;
 }
 
 .tab01 .nav-link:hover {
-  color: #333;
+  color: #57290c;
   border-color: #797979;
 }
 
@@ -1664,16 +1624,16 @@ button.mfp-close {
 }
 
 .swal-button:hover {
-  background-color: #333;
+  background-color: #57290c;
 }
 
 .swal-button:active {
-  background-color: #333;
+  background-color: #57290c;
 }
 
 .swal-title {
   font-family: Poppins-Bold;
-  color: #333333;
+  color: #57290c333;
   font-size: 18px;
   line-height: 1.5;
   padding: 0 15px;
@@ -1990,7 +1950,7 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 /*---------------------------------------------*/
-.block1-name {color: #333;}
+.block1-name {color: #57290c;}
 .block1-info {color: #555;}
 
 /*---------------------------------------------*/
@@ -2124,7 +2084,7 @@ input.num-product::-webkit-inner-spin-button {
 ==================================================================*/
 .cl0 {color: #fff;}
 .cl1 {color: #717fe0;}
-.cl2 {color: #333;}
+.cl2 {color: #57290c;}
 .cl3 {color: #666;}
 .cl4 {color: #999;}
 .cl5 {color: #222;}
@@ -2646,7 +2606,7 @@ input.num-product::-webkit-inner-spin-button {
 .bg3 {background-color: #222;}
 .bg5 {background-color: rgba(0,0,0,0.5);}
 .bg6 {background-color: #f2f2f2;}
-.bg7 {background-color: #333;}
+.bg7 {background-color: #57290c;}
 .bg8 {background-color: #f3f3f3;}
 .bg9 {background-color: rgba(255,255,255,0.9);}
 
@@ -2782,10 +2742,10 @@ input.num-product::-webkit-inner-spin-button {
 .plh1::-moz-placeholder { color: #b2b2b2;}
 .plh1:-ms-input-placeholder { color: #b2b2b2;}
 
-.plh2::-webkit-input-placeholder { color: #333;}
-.plh2:-moz-placeholder { color: #333;}
-.plh2::-moz-placeholder { color: #333;}
-.plh2:-ms-input-placeholder { color: #333;}
+.plh2::-webkit-input-placeholder { color: #57290c;}
+.plh2:-moz-placeholder { color: #57290c;}
+.plh2::-moz-placeholder { color: #57290c;}
+.plh2:-ms-input-placeholder { color: #57290c;}
 
 .plh3::-webkit-input-placeholder { color: #555;}
 .plh3:-moz-placeholder { color: #555;}
@@ -2835,7 +2795,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .how-active1 {
-  color: #333;
+  color: #57290c;
   border-color: #797979;
 }
 
@@ -3140,7 +3100,7 @@ input.num-product::-webkit-inner-spin-button {
 
 /*---------------------------------------------*/
 .hov1:hover {
-  color: #333;
+  color: #57290c;
   border-color: #797979;
 }
 
