@@ -40,7 +40,7 @@
 			<div class="top-bar">
 				<div class="content-topbar flex-sb-m h-full container">
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Free shipping for standard order over R100
 					</div>
 
 					<div class="right-top-bar flex-w h-full">
@@ -154,7 +154,7 @@
 			<ul class="topbar-mobile">
 				<li>
 					<div class="left-top-bar">
-						Free shipping for standard order over $100
+						Free shipping for standard order over R100
 					</div>
 				</li>
 
@@ -247,7 +247,7 @@
 							</a>
 
 							<span class="header-cart-item-info">
-								1 x $19.00
+								1 x R19.00
 							</span>
 						</div>
 					</li>
@@ -263,7 +263,7 @@
 							</a>
 
 							<span class="header-cart-item-info">
-								1 x $39.00
+								1 x R39.00
 							</span>
 						</div>
 					</li>
@@ -279,7 +279,7 @@
 							</a>
 
 							<span class="header-cart-item-info">
-								1 x $17.00
+								1 x R17.00
 							</span>
 						</div>
 					</li>
@@ -287,7 +287,7 @@
 				
 				<div class="w-full">
 					<div class="header-cart-total w-full p-tb-40">
-						Total: $75.00
+						Total: R75.00
 					</div>
 
 					<div class="header-cart-buttons flex-w w-full">
@@ -556,7 +556,7 @@
 										</a>
 
 										<span class="stext-116 cl6 p-t-20">
-											$19.00
+											R19.00
 										</span>
 									</div>
 								</li>
@@ -572,7 +572,7 @@
 										</a>
 
 										<span class="stext-116 cl6 p-t-20">
-											$39.00
+											R39.00
 										</span>
 									</div>
 								</li>
@@ -588,7 +588,7 @@
 										</a>
 
 										<span class="stext-116 cl6 p-t-20">
-											$17.00
+											R17.00
 										</span>
 									</div>
 								</li>
@@ -897,10 +897,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 	<script src="vendor/select2/select2.min.js"></script>
 	<script>
-		$(".js-select2").each(function(){
-			$(this).select2({
+		R(".js-select2").each(function(){
+			R(this).select2({
 				minimumResultsForSearch: 20,
-				dropdownParent: $(this).next('.dropDownSelect2')
+				dropdownParent: R(this).next('.dropDownSelect2')
 			});
 		})
 	</script>
@@ -909,16 +909,16 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <!--===============================================================================================-->
 	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 	<script>
-		$('.js-pscroll').each(function(){
-			$(this).css('position','relative');
-			$(this).css('overflow','hidden');
+		R('.js-pscroll').each(function(){
+			R(this).css('position','relative');
+			R(this).css('overflow','hidden');
 			var ps = new PerfectScrollbar(this, {
 				wheelSpeed: 1,
 				scrollingThreshold: 1000,
 				wheelPropagation: false,
 			});
 
-			$(window).on('resize', function(){
+			R(window).on('resize', function(){
 				ps.update();
 			})
 		});
